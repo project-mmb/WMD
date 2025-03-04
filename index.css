@@ -63,6 +63,7 @@ main {
     align-items: center;
     border-radius: 10px;
     font-size: 18px;
+    padding: 20px
 }
 
 .projects, .achievements, .contacts, .portfolio, .clients-helped, .work-status {
