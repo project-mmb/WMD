@@ -93,3 +93,12 @@ footer {
     color: #091C41;
     font-weight: bold;
 }
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
