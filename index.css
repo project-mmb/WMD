@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #091C41;
-    color: white;
+    color: #FFFFFF;
 }
 
 header {
@@ -11,108 +11,90 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background: #0D274A;
+    background-color: #66BB6A;
 }
 
 .logo {
-    font-size: 36px;
+    font-size: 24px;
     font-weight: bold;
-    color: #66BB6A;
 }
 
 .nav-links a {
+    margin: 0 15px;
     color: white;
     text-decoration: none;
-    margin-left: 20px;
-    font-size: 18px;
-    font-weight: bold;
-    text-transform: uppercase;
 }
 
-.nav-links a:hover {
-    color: #66BB6A;
-}
-
-main {
-    padding: 40px;
+.name-section {
     text-align: center;
+    padding: 40px;
 }
 
-.name-section h1 {
-    font-size: 42px;
-    color: #66BB6A;
-}
-
-.content-container {
+.profile-container {
     display: flex;
-    justify-content: center;
-    gap: 40px;
-    margin-top: 40px;
+    justify-content: space-between;
+    align-items: center;
+    height: 400px;
+    padding: 40px;
 }
 
-.left-section, .right-section {
-    width: 30%;
+.contact-info {
+    flex: 1;
+    padding: 20px;
+    text-align: left;
 }
 
-.image-placeholder {
+.contact-info img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.profile-picture img {
     width: 250px;
     height: 250px;
-    background: gray;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
-    font-size: 18px;
-    padding: 20px
+    border-radius: 50%;
+    object-fit: cover;
 }
 
-.projects, .achievements, .contacts, .portfolio, .clients-helped, .work-status {
-    background: #0D274A;
+.right-placeholder {
+    flex: 1;
+    background-color: gray;
+    height: 100%;
+}
+
+.skills-banner {
+    text-align: center;
+    padding: 40px;
+}
+
+.skills-logos img {
+    width: 50px;
+    margin: 10px;
+}
+
+.projects {
+    text-align: center;
+    padding: 40px;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
     padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 10px;
 }
 
-h2 {
-    color: #66BB6A;
-}
-
-.btn {
-    display: inline-block;
-    padding: 10px 20px;
-    background: #66BB6A;
-    color: #091C41;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 5px;
-}
-
-.btn:hover {
-    background: #4A9A54;
+.project-item {
+    background-color: #66BB6A;
+    padding: 20px;
+    text-align: center;
 }
 
 footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 20px;
-    background: #091C41;
-    text-align: center;
-}
-
-.footer-left, .footer-center, .footer-right {
-    width: 30%;
-}
-
-.footer-left ul {
-    list-style: none;
-    padding: 0;
-}
-
-.footer-left a {
+    background-color: #66BB6A;
     color: white;
-    text-decoration: none;
-}
-
-.footer-left a:hover {
-    color: #66BB6A;
 }
