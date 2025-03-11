@@ -20,15 +20,6 @@ header {
     color: #66BB6A;
 }
 
-.nav-links a {
-    color: white;
-    text-decoration: none;
-    margin-left: 20px;
-    font-size: 18px;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
 .nav-links a:hover {
     color: #66BB6A;
 }
