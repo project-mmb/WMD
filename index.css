@@ -123,3 +123,14 @@ footer {
     text-align: center;
     transition: transform 0.3s;
 }
+
+.Projects{
+    background: #0D274A;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.projectsec h2 {
+    color: white
+}
