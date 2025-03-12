@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #091C41;
-     ;
+    color: white;
 }
 
 header {
@@ -107,27 +107,3 @@ footer {
 .footer-left a:hover {
     color: #66BB6A;
 }
-
-.Projects {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 60px;
-    justify-content: center;
-}
-
-.projectsec {
-    background-color: #091C41;
-    border-left: 5px solid #091C41;
-    border-radius: 8px;
-    padding: 20px;
-    text-align: center;
-    transition: transform 0.3s;
-}
-
-.Projects{
-    background: #0D274A;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 10px;
-}
-
