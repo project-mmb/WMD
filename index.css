@@ -40,10 +40,23 @@ h2 {
     color: #2B2D42;
 }
 
+.welcome {
+    width: 100%; 
+    background-color: #2B2D42; 
+    text-align: center; 
+    padding: 20px 0; /
+}
+
 .welcome pre {
-    font-family: monospace; 
+    font-family: monospace;
     white-space: pre-wrap;
-    line-height: 1; 
+    line-height: 1;
+    margin: 0 auto; 
+    display: inline-block; 
+}
+
+body {
+    margin: 0; 
 }
 
 footer {
