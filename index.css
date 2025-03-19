@@ -150,6 +150,10 @@ footer {
 }
 
 .project-header{
+align-items:center;
+}
+
+.project-header-ph{
 align-items: center;
 }
 
