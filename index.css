@@ -2,8 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #091C41;
-    color: #091C41 ;
+    background-color: #091C41; ;
 }
 
 header {
@@ -57,29 +56,18 @@ main {
     padding: 20px
 }
 
-.projects, .achievements, .contacts, .portfolio, .clients-helped, .work-status {
-    background: #0D274A;
+.projects, .certifications, .portfolio, .clients-helped, .work-status {
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 10px;
 }
 
+.work-status p{
+    color: white;
+}
+
 h2 {
     color: #66BB6A;
-}
-
-.btn {
-    display: inline-block;
-    padding: 10px 20px;
-    background: #66BB6A;
-    color: #091C41;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 5px;
-}
-
-.btn:hover {
-    background: #4A9A54;
 }
 
 footer {
@@ -117,6 +105,10 @@ footer {
     color: #66BB6A;
 }
 
+.footer-left h3{
+    color: #66BB6A;
+}
+
 .footer-right p{
     color: white;
     text-decoration: none;
@@ -134,8 +126,7 @@ footer {
 }
 
 .projectsec {
-    background-color: #091C41;
-    border-left: 5px solid #091C41;
+    background-color: #0D274A;
     border-radius: 8px;
     padding: 20px;
     text-align: center;
@@ -143,18 +134,18 @@ footer {
 }
 
 .Projects{
-    background: #0D274A;
     padding: 20px;
     margin-bottom: 20px;
-    border-radius: 10px;
+    
 }
 
 .project-header{
 align-items:center;
 }
 
-.project-header-ph{
+.project-headerinfo{
 align-items: center;
+color: white;
 }
 
 .project-header h1 {
