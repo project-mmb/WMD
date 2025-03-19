@@ -86,8 +86,9 @@ footer {
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    background: #091C41;
+    background: #0D274A;
     text-align: center;
+    text-emphasis-color: white;
 }
 
 .footer-left, .footer-center, .footer-right {
@@ -100,6 +101,23 @@ footer {
 }
 
 .footer-left a {
+    color: white;
+    text-decoration: none;
+}
+ .footer-center p {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-right h3{
+    color: #66BB6A;
+}
+
+.footer-center h3{
+    color: #66BB6A;
+}
+
+.footer-right p{
     color: white;
     text-decoration: none;
 }
@@ -131,3 +149,15 @@ footer {
     border-radius: 10px;
 }
 
+.project-header{
+align-items: center;
+}
+
+.project-header h1 {
+color: #66BB6A
+
+}
+
+.project-header p{
+color: white;
+}
