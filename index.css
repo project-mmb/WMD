@@ -1,0 +1,169 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: #428CE2
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: white;
+}
+
+.logo {
+    font-size: 36px;
+    font-weight: bold;
+    color: #66BB6A;
+}
+
+.nav-links a:hover {
+    color: #66BB6A;
+}
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #428CE2;
+    font-weight: bold;
+}
+
+main {
+    padding: 40px;
+    text-align: center;
+}
+
+.name-section h1 {
+    font-size: 42px;
+    color: #66BB6A;
+}
+
+.content-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.left-section, .right-section {
+    width: 50%;
+    
+}
+
+.image-placeholder {
+    width: 50%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 20px
+    
+}
+
+.image-placeholder img {
+    width: 350px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.projects, .certifications {
+    
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid #66BB6A;
+}
+
+h2 {
+    color: #66BB6A;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: white;
+    text-align: center;
+}
+
+.footer-left, .footer-center, .footer-right {
+    width: 30%;
+}
+
+.footer-left ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-left a {
+    color: #428CE2;
+    text-decoration: none;
+}
+
+.footer-left a:hover {
+    color: #66BB6A;
+}
+
+.footer-center h3, .footer-left h3, .footer-right h3{
+    color: #66BB6A;
+}
+
+.Projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 60px;
+    justify-content: center;
+}
+
+.projectsec {
+    background-color: white;
+    border: 1px solid #66BB6A;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.projectsec h1{
+    color: #428CE2;
+}
+
+.Projects{
+    
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.project-header h1 {
+    color: #66BB6A;
+}
+
+.project-header p{
+    color: #428CE2;
+}
+
+.content-divider{
+    background: #66BB6A;
+}
+
+.content-divider p{
+    color: #66BB6A;
+}
+
+.nav-links{
+    color: #66BB6A;
+}
+
+main img {
+    width: auto;
+    height: auto;
+}
+
+.footer-center a{
+    color: #428CE2;
+}
