@@ -167,3 +167,7 @@ main img {
 .footer-center a{
     color: #428CE2;
 }
+
+img{
+    max-width: 100%;
+}
