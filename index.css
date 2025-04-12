@@ -1,9 +1,18 @@
-body {
-    font-family: Arial, sans-serif;
+body, h1, h2, h3, p, ul, li, a, div, section, nav, header, main, footer {
     margin: 0;
     padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box; 
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1;
     background-color: white;
-    color: #428CE2
+    color: #428CE2;
 }
 
 header {
@@ -20,14 +29,19 @@ header {
     color: #66BB6A;
 }
 
-.nav-links a:hover {
-    color: #66BB6A;
+.nav-links {
+    display: flex;
+    gap: 15px; 
 }
-nav a {
-    margin: 0 15px;
+
+.nav-links a {
     text-decoration: none;
     color: #428CE2;
     font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: #66BB6A;
 }
 
 main {
@@ -35,33 +49,130 @@ main {
     text-align: center;
 }
 
+main img {
+    max-width: 100%;
+    height: auto; 
+    display: block; 
+    margin: 20px auto; 
+}
+
+.content-divider {
+    background: #66BB6A;
+    padding: 10px 0; 
+    margin: 20px 0; 
+}
+
+.content-divider p {
+    color: #66BB6A;
+    line-height: 0.5; 
+}
+
+.name-section {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
 .name-section h1 {
     font-size: 42px;
     color: #66BB6A;
+    margin-bottom: 10px;
 }
 
-.projects, .certifications {
-    
+.name-section p {
+    line-height: 1.6;
+}
+
+.content-container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 20px; 
     padding: 20px;
-    margin-bottom: 20px;
+}
+
+.left-section, .right-section {
+    flex: 1 1 300px; 
+    padding: 20px;
     border-radius: 10px;
     border: 1px solid #66BB6A;
+    text-align: left;
 }
 
-h2 {
+.image-placeholder {
+    flex: 0 1 200px; 
+    
+}
+
+.projects-list h2, .certifications h2 {
     color: #66BB6A;
+    margin-bottom: 10px;
+}
+
+.projects-list ul, .certifications ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.work-status {
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.work-status h2 {
+    color: #66BB6A;
+    margin-bottom: 10px;
+}
+
+.project-header {
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.project-header h1 {
+    color: #66BB6A;
+    margin-bottom: 10px;
+}
+
+.project-header p {
+    color: #428CE2;
+    line-height: 1.6;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px; 
+    padding: 20px;
+}
+
+.projectsec {
+    background-color: white;
+    border: 1px solid #66BB6A;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.projectsec h2 {
+    color: #428CE2;
 }
 
 footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around; 
     padding: 20px;
     background: white;
     text-align: center;
-}
+    flex-wrap: wrap; 
+    gap: 20px; 
+
+}    
 
 .footer-left, .footer-center, .footer-right {
-    width: 30%;
+    flex: 1 1 200px; 
 }
 
 .footer-left ul {
@@ -78,67 +189,20 @@ footer {
     color: #66BB6A;
 }
 
-.footer-center h3, .footer-left h3, .footer-right h3{
+.footer-center h3, .footer-left h3, .footer-right h3 {
     color: #66BB6A;
+    margin-bottom: 10px;
 }
 
-.Projects {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 60px;
-    justify-content: center;
-}
-
-.projectsec {
-    background-color: white;
-    border: 1px solid #66BB6A;
-    border-radius: 8px;
-    padding: 20px;
-    text-align: center;
-    transition: transform 0.3s;
-}
-
-.projectsec h1{
+.footer-center a {
     color: #428CE2;
+    text-decoration: none;
 }
 
-.Projects{
-    
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 10px;
-}
-
-.project-header h1 {
+.footer-center a:hover {
     color: #66BB6A;
 }
 
-.project-header p{
-    color: #428CE2;
-}
-
-.content-divider{
-    background: #66BB6A;
-}
-
-.content-divider p{
-    color: #66BB6A;
-}
-
-.nav-links{
-    color: #66BB6A;
-}
-
-main img {
-    width: auto;
-    height: auto;
-}
-
-.footer-center a{
-    color: #428CE2;
-}
-
-img{
-    max-width: 100%;
-    max-height: 100%;
+.footer-right p {
+    margin-bottom: 5px;
 }
