@@ -40,36 +40,6 @@ main {
     color: #66BB6A;
 }
 
-.content-container {
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-    margin-top: 40px;
-}
-
-.left-section, .right-section {
-    width: 50%;
-    
-}
-
-.image-placeholder {
-    width: 50%;
-    height: 25%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
-    font-size: 18px;
-    padding: 20px
-    
-}
-
-.image-placeholder img {
-    width: 350px;
-    height: 300px;
-    border-radius: 10px;
-}
-
 .projects, .certifications {
     
     padding: 20px;
@@ -170,4 +140,5 @@ main img {
 
 img{
     max-width: 100%;
+    max-height: 100%;
 }
