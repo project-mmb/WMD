@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
       return;
     }
 
-    const names = ["MOTSHOLATHEBE BOWELO", "M.M.B", "Mr BOWELO"];
+    const names = ["MOTSHOLATHEBE", "M.M.B", "Mr BOWELO"];
     let nameIndex = 0;
     let charIndex = 0;
     let isDeleting = false;
