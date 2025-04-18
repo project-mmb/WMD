@@ -1,0 +1,240 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: #428CE2;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: white;
+}
+
+.logo {
+    font-size: 36px;
+    font-weight: bold;
+    color: #66BB6A;
+}
+
+.nav-links a {
+    margin: 15px;
+    text-decoration: none;
+    color: #428CE2;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: #66BB6A;
+}
+
+nav a {
+    text-decoration: none;
+    color: #428CE2;
+    font-weight: bold;
+}
+
+main {
+    padding: 40px;
+    text-align: center;
+}
+
+main img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+h1, h2 {
+    color: #66BB6A;
+    font-weight: bold;
+}
+
+ul {
+    text-align: center;
+}
+
+li {
+    list-style-position: inside;
+    text-align: center;
+}
+
+.projects, .certifications {
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid #66BB6A;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: white;
+    text-align: center;
+}
+
+.footer-left, .footer-center, .footer-right {
+    width: 30%;
+}
+
+.footer-left ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-left a {
+    color: #428CE2;
+    text-decoration: none;
+}
+
+.footer-left a:hover {
+    color: #66BB6A;
+}
+
+.footer-center h3, .footer-left h3, .footer-right h3 {
+    color: #66BB6A;
+}
+
+.Projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.projectsec {
+    background-color: white;
+    border: 1px solid #66BB6A;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.projectsec h2 {
+    color: #428CE2;
+}
+
+.project-header h1 {
+    color: #66BB6A;
+}
+
+.project-header p {
+    color: #428CE2;
+}
+
+.content-divider {
+    background: #66BB6A;
+    margin: 20px 0;
+}
+
+.content-divider p {
+    color: #66BB6A;
+}
+
+main img {
+    width: auto;
+    height: auto;
+}
+
+.footer-center a {
+    color: #428CE2;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+ .name-section{
+    margin-bottom: 20px;
+    
+ }
+
+ .certifications h2 {
+    font-size: 20px;
+    text-transform: uppercase;
+ }
+ 
+ 
+ .projects h2{
+    font-size: 20px;
+    text-transform: uppercase;
+ }
+
+ .image-container {
+    position: relative;
+    overflow: hidden;
+    height: auto;
+}
+
+#slide-image {
+    width: 100%;
+    opacity: 0;
+    transform: translateY(-100px);
+    transition: all 1s ease-out;
+}
+
+.homeintro{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    flex-wrap: wrap; 
+  }
+  
+  .intro-text {
+    flex: 1;
+    padding-right: 30px;
+    min-width: 300px; 
+  }
+  
+  .name-animation{
+    color: #66BB6A;
+  }
+
+  .name-animation {
+    font-size: 2.5em;
+    font-weight: bold;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: .15em solid #2c3437;
+    animation: typing 3s steps(30, end) infinite,
+               blink-caret .75s step-end infinite alternate;
+  }
+  
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #2c3437; }
+  }
+  
+  .profile-placeholder {
+    flex: 1;
+    text-align: center;
+    min-width: 250px; 
+  }
+  
+  .profile-placeholder img {
+    max-width: 100%; 
+    height: auto;
+    border-radius: 0%;
+    border: 5px solid #ccc;
+  }
+
+  h1{
+    align-items: left;
+  }
+
