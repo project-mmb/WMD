@@ -20,38 +20,38 @@ header {
     color: #66BB6A;
 }
 
+nav a,
 .nav-links a {
-    margin: 15px;
+    margin: 0 15px;
     text-decoration: none;
     color: #428CE2;
     font-weight: bold;
 }
 
+nav a:hover,
 .nav-links a:hover {
     color: #66BB6A;
 }
 
-nav a {
-    text-decoration: none;
-    color: #428CE2;
-    font-weight: bold;
-}
-
 main {
-    padding: 40px;
+    padding: 40px 20px;
     text-align: center;
 }
 
-main img {
+main img,
+.image-content img,
+img {
     max-width: 100%;
     height: auto;
     display: block;
     margin: 20px auto;
 }
 
-h1, h2 {
+h1,
+h2 {
     color: #66BB6A;
     font-weight: bold;
+    text-align: center;
 }
 
 ul {
@@ -63,7 +63,9 @@ li {
     text-align: center;
 }
 
-.projects, .certifications {
+.projects,
+.certifications,
+.Projects {
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 10px;
@@ -72,13 +74,16 @@ li {
 
 footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 20px;
     background: white;
     text-align: center;
+    border-top: 1px solid #ddd;
 }
 
-.footer-left, .footer-center, .footer-right {
+.footer-left,
+.footer-center,
+.footer-right {
     width: 30%;
 }
 
@@ -87,26 +92,33 @@ footer {
     padding: 0;
 }
 
-.footer-left a {
+.footer-left a,
+.footer-center a {
     color: #428CE2;
     text-decoration: none;
 }
 
-.footer-left a:hover {
+.footer-left a:hover,
+.footer-center a:hover {
     color: #66BB6A;
 }
 
-.footer-center h3, .footer-left h3, .footer-right h3 {
+.footer-center h3,
+.footer-left h3,
+.footer-right h3,
+.title,
+.quote-header,
+.project-header h2 {
     color: #66BB6A;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 .Projects {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 10px;
+    justify-content: center;
 }
 
 .projectsec {
@@ -118,16 +130,15 @@ footer {
     transition: transform 0.3s;
 }
 
-.projectsec h2 {
+.projectsec h2,
+.project-header p,
+.footer-right p,
+.footer-center p,
+p {
     color: #428CE2;
-}
-
-.project-header h1 {
-    color: #66BB6A;
-}
-
-.project-header p {
-    color: #428CE2;
+    text-align: center;
+    margin-bottom: 15px;
+    text-transform: capitalize;
 }
 
 .content-divider {
@@ -137,40 +148,20 @@ footer {
 
 .content-divider p {
     color: #66BB6A;
+    text-align: center;
 }
 
-main img {
-    width: auto;
-    height: auto;
-}
-
-.footer-center a {
-    color: #428CE2;
-}
-
-img {
-    max-width: 100%;
-    max-height: 100%;
-    display: block;
-    margin: 0 auto;
-}
- .name-section{
+.name-section {
     margin-bottom: 20px;
-    
- }
+}
 
- .certifications h2 {
+.certifications h2,
+.projects h2 {
     font-size: 20px;
     text-transform: uppercase;
- }
- 
- 
- .projects h2{
-    font-size: 20px;
-    text-transform: uppercase;
- }
+}
 
- .image-container {
+.image-container {
     position: relative;
     overflow: hidden;
     height: auto;
@@ -183,25 +174,21 @@ img {
     transition: all 1s ease-out;
 }
 
-.homeintro{
+.homeintro {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 50px;
-    flex-wrap: wrap; 
-  }
-  
-  .intro-text {
+    flex-wrap: wrap;
+}
+
+.intro-text {
     flex: 1;
     padding-right: 30px;
-    min-width: 300px; 
-  }
-  
-  .name-animation{
-    color: #66BB6A;
-  }
+    min-width: 300px;
+}
 
-  .name-animation {
+.name-animation {
     font-size: 2.5em;
     font-weight: bold;
     overflow: hidden;
@@ -209,32 +196,62 @@ img {
     border-right: .15em solid #2c3437;
     animation: typing 3s steps(30, end) infinite,
                blink-caret .75s step-end infinite alternate;
-  }
-  
-  @keyframes typing {
+    color: #66BB6A;
+}
+
+@keyframes typing {
     from { width: 0 }
     to { width: 100% }
-  }
-  
-  @keyframes blink-caret {
+}
+
+@keyframes blink-caret {
     from, to { border-color: transparent }
     50% { border-color: #2c3437; }
-  }
-  
-  .profile-placeholder {
+}
+
+.profile-placeholder {
     flex: 1;
     text-align: center;
-    min-width: 250px; 
-  }
-  
-  .profile-placeholder img {
-    max-width: 100%; 
+    min-width: 250px;
+}
+
+.profile-placeholder img {
+    max-width: 100%;
     height: auto;
     border-radius: 0%;
     border: 5px solid #ccc;
-  }
+    margin: 20px auto; /* Ensure image is centered */
+}
 
-  h1{
-    align-items: left;
-  }
+section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    max-width: 1200px;
+    margin: auto;
+}
 
+section:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.text-content {
+    width: 50%;
+    text-align: center;
+}
+
+.image-content {
+    width: 50%;
+    text-align: center;
+}
+
+.footer-left li {
+    margin-bottom: 8px;
+}
+
+h3 {
+    color: #428CE2;
+    margin: 5px 0;
+    text-align: center;
+}
