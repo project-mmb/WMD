@@ -35,7 +35,7 @@ nav a:hover,
 }
 
 main {
-    padding: 40px 20px;
+
     text-align: center;
 }
 
@@ -46,6 +46,7 @@ img {
     height: auto;
     display: block;
     margin: 20px ;
+    align-items: center;
 }
 
 h1,
