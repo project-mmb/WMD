@@ -168,6 +168,17 @@ footer {
     }
 }
 
+@media (max-width: 768px) {
+  .intro-text p{
+    text-align: right;
+  }
+}
+
+.title h1{
+    font-size: 36px;
+    margin: 30px;
+}
+
 .Projects {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
